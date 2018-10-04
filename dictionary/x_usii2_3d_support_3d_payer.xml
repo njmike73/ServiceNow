@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="core_company" label="3D Payer" max_length="40" name="x_usii2_3d_support_3d_payer" type="collection"/>
+</database>
