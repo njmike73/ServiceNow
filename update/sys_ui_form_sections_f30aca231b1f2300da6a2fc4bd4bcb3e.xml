@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f30aca231b1f2300da6a2fc4bd4bcb3e" sys_domain="global" table="x_usii2_3d_support_3d_payer" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_usii2_3d_support_3d_payer</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>a-michael.cavallo</sys_created_by>
+            <sys_created_on>2019-02-04 15:02:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>f30aca231b1f2300da6a2fc4bd4bcb3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_usii2_3d_support_3d_payer</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="3D Support" source="x_usii2_3d_support">668825c00f05a3008b7c419ce1050ec7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="3D Support">668825c00f05a3008b7c419ce1050ec7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f30aca231b1f2300da6a2fc4bd4bcb3e</sys_update_name>
+            <sys_updated_by>a-michael.cavallo</sys_updated_by>
+            <sys_updated_on>2019-02-04 15:02:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Finance" name="finance">9cf31f25dbb3430011c81cb51b961987</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

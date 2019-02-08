@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status" table="x_usii2_3d_support_3d_payer" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted</label>
+            <language>en</language>
+            <name>x_usii2_3d_support_3d_payer</name>
+            <sequence>0</sequence>
+            <sys_created_by>a-michael.cavallo</sys_created_by>
+            <sys_created_on>2019-02-08 14:25:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e50862bc1be76b00f0a2437ead4bcb34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>a-michael.cavallo</sys_updated_by>
+            <sys_updated_on>2019-02-08 14:25:27</sys_updated_on>
+            <value>submitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Staging</label>
+            <language>en</language>
+            <name>x_usii2_3d_support_3d_payer</name>
+            <sequence>1</sequence>
+            <sys_created_by>a-michael.cavallo</sys_created_by>
+            <sys_created_on>2019-02-08 14:25:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e90862bc1be76b00f0a2437ead4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>a-michael.cavallo</sys_updated_by>
+            <sys_updated_on>2019-02-08 14:25:27</sys_updated_on>
+            <value>staging</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Progress</label>
+            <language>en</language>
+            <name>x_usii2_3d_support_3d_payer</name>
+            <sequence>2</sequence>
+            <sys_created_by>a-michael.cavallo</sys_created_by>
+            <sys_created_on>2019-02-08 14:25:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e90862bc1be76b00f0a2437ead4bcb36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>a-michael.cavallo</sys_updated_by>
+            <sys_updated_on>2019-02-08 14:25:27</sys_updated_on>
+            <value>in progress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Production</label>
+            <language>en</language>
+            <name>x_usii2_3d_support_3d_payer</name>
+            <sequence>3</sequence>
+            <sys_created_by>a-michael.cavallo</sys_created_by>
+            <sys_created_on>2019-02-08 14:25:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e90862bc1be76b00f0a2437ead4bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>a-michael.cavallo</sys_updated_by>
+            <sys_updated_on>2019-02-08 14:25:27</sys_updated_on>
+            <value>production</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Longer Eligible</label>
+            <language>en</language>
+            <name>x_usii2_3d_support_3d_payer</name>
+            <sequence>4</sequence>
+            <sys_created_by>a-michael.cavallo</sys_created_by>
+            <sys_created_on>2019-02-08 14:25:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e90862bc1be76b00f0a2437ead4bcb38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>a-michael.cavallo</sys_updated_by>
+            <sys_updated_on>2019-02-08 14:25:27</sys_updated_on>
+            <value>no longer eligible</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lost</label>
+            <language>en</language>
+            <name>x_usii2_3d_support_3d_payer</name>
+            <sequence>5</sequence>
+            <sys_created_by>a-michael.cavallo</sys_created_by>
+            <sys_created_on>2019-02-08 14:25:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e90862bc1be76b00f0a2437ead4bcb39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>a-michael.cavallo</sys_updated_by>
+            <sys_updated_on>2019-02-08 14:25:27</sys_updated_on>
+            <value>lost</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Never in Production</label>
+            <language>en</language>
+            <name>x_usii2_3d_support_3d_payer</name>
+            <sequence>6</sequence>
+            <sys_created_by>a-michael.cavallo</sys_created_by>
+            <sys_created_on>2019-02-08 14:25:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e90862bc1be76b00f0a2437ead4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>a-michael.cavallo</sys_updated_by>
+            <sys_updated_on>2019-02-08 14:25:27</sys_updated_on>
+            <value>never in production</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <name>x_usii2_3d_support_3d_payer</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>a-michael.cavallo</sys_created_by>
+            <sys_created_on>2019-02-08 14:25:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>610862bc1be76b00f0a2437ead4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status</sys_name>
+            <sys_package display_value="3D Support" source="x_usii2_3d_support">668825c00f05a3008b7c419ce1050ec7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="3D Support">668825c00f05a3008b7c419ce1050ec7</sys_scope>
+            <sys_update_name>sys_choice_x_usii2_3d_support_3d_payer_u_status</sys_update_name>
+            <sys_updated_by>a-michael.cavallo</sys_updated_by>
+            <sys_updated_on>2019-02-08 14:25:27</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="3D Payer" language="en" table="x_usii2_3d_support_3d_payer">
+    <sys_documentation element="sagitta_id" label="Sagitta Int. ID" language="en" table="x_usii2_3d_support_3d_payer">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>sagitta_id</element>
             <help/>
             <hint/>
-            <label>3D Payer</label>
+            <label>Sagitta Int. ID</label>
             <language>en</language>
             <name>x_usii2_3d_support_3d_payer</name>
-            <plural>3D Payers</plural>
+            <plural>Sagitta Int. IDs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>a-michael.cavallo</sys_created_by>
-            <sys_created_on>2018-10-04 19:19:05</sys_created_on>
+            <sys_created_on>2019-02-08 14:25:27</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>645965cc0f05a3008b7c419ce1050e88</sys_id>
+            <sys_id>950822bc1be76b00f0a2437ead4bcbf1</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>3D Payer</sys_name>
+            <sys_name>Sagitta Int. ID</sys_name>
             <sys_package display_value="3D Support" source="x_usii2_3d_support">668825c00f05a3008b7c419ce1050ec7</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="3D Support">668825c00f05a3008b7c419ce1050ec7</sys_scope>
-            <sys_update_name>sys_documentation_x_usii2_3d_support_3d_payer__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_usii2_3d_support_3d_payer_sagitta_id_en</sys_update_name>
             <sys_updated_by>a-michael.cavallo</sys_updated_by>
-            <sys_updated_on>2018-10-04 19:19:05</sys_updated_on>
+            <sys_updated_on>2019-02-08 14:25:27</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

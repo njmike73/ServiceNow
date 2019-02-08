@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="core_company" label="3D Payer" max_length="40" name="x_usii2_3d_support_3d_payer" type="collection"/>
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="core_company" label="3D Payer" max_length="40" name="x_usii2_3d_support_3d_payer" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="BenefitPoint Int. ID" max_length="255" name="benefitpoint_id" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Sagitta Int. ID" max_length="255" name="sagitta_id" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Acquired from" max_length="255" name="u_acquired_from" type="string_full_utf8"/>
+        <element label="Office" max_length="32" name="u_office" reference="cmn_location" type="reference"/>
+        <element label="Original Production Date" max_length="40" name="u_original_date" type="glide_date"/>
+        <element label="Region" max_length="32" name="u_region" reference="u_regions" type="reference"/>
+        <element label="Date Removed from 3D" max_length="40" name="u_removed_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="SIC Code" max_length="255" name="u_sic_code" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" sequence="0" value="submitted"/>
+                <element inactive_on_update="false" label="Staging" sequence="1" value="staging"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in progress"/>
+                <element inactive_on_update="false" label="Production" sequence="3" value="production"/>
+                <element inactive_on_update="false" label="No Longer Eligible" sequence="4" value="no longer eligible"/>
+                <element inactive_on_update="false" label="Lost" sequence="5" value="lost"/>
+                <element inactive_on_update="false" label="Never in Production" sequence="6" value="never in production"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_office"/>
+        </index>
+        <index name="index2">
+            <element name="u_region"/>
+        </index>
+    </element>
 </database>
