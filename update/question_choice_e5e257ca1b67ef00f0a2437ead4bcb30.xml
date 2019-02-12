@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Data Being Requested">6d92df8a1b67ef00f0a2437ead4bcb2b</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>a-michael.cavallo</sys_created_by>
+        <sys_created_on>2019-02-12 14:45:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e5e257ca1b67ef00f0a2437ead4bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medical Only</sys_name>
+        <sys_package display_value="3D Support" source="x_usii2_3d_support">668825c00f05a3008b7c419ce1050ec7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="3D Support">668825c00f05a3008b7c419ce1050ec7</sys_scope>
+        <sys_update_name>question_choice_e5e257ca1b67ef00f0a2437ead4bcb30</sys_update_name>
+        <sys_updated_by>a-michael.cavallo</sys_updated_by>
+        <sys_updated_on>2019-02-12 14:45:27</sys_updated_on>
+        <text>Medical Only</text>
+        <value>medical_only</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e5e257ca1b67ef00f0a2437ead4bcb30"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>e5e257ca1b67ef00f0a2437ead4bcb30</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>a-michael.cavallo</sys_created_by>
+        <sys_created_on>2019-02-12 14:45:27</sys_created_on>
+        <sys_id>11f297ca1b67ef00f0a2437ead4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>a-michael.cavallo</sys_updated_by>
+        <sys_updated_on>2019-02-12 14:45:27</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>e5e257ca1b67ef00f0a2437ead4bcb30</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>a-michael.cavallo</sys_created_by>
+        <sys_created_on>2019-02-12 14:45:27</sys_created_on>
+        <sys_id>91f21b0a1b67ef00f0a2437ead4bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>a-michael.cavallo</sys_updated_by>
+        <sys_updated_on>2019-02-12 14:45:27</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

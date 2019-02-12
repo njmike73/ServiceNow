@@ -13,6 +13,19 @@
             <sys_updated_by>a-michael.cavallo</sys_updated_by>
             <sys_updated_on>2019-02-08 17:29:01</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2019-02-08 17:30:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>32521f3c1bab6b00f0a2437ead4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_usii2_3d_support_3d_payer" name="x_usii2_3d_support_3d_payer" sys_domain="global" view="cb682196941211005889b3542dc5623b">bb0aca231b1f2300da6a2fc4bd4bcb40</sys_ui_form>
+            <sys_ui_section caption="Information" display_value="Information" name="x_usii2_3d_support_3d_payer" sys_domain="global" view="cb682196941211005889b3542dc5623b">370aca231b1f2300da6a2fc4bd4bcb52</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2019-02-08 17:30:25</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_usii2_3d_support_3d_payer</name>
             <roles/>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Current Plan Funding">0717dbce1b67ef00f0a2437ead4bcbaa</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>a-michael.cavallo</sys_created_by>
+        <sys_created_on>2019-02-12 15:04:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8957db8e1b67ef00f0a2437ead4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self Funded</sys_name>
+        <sys_package display_value="3D Support" source="x_usii2_3d_support">668825c00f05a3008b7c419ce1050ec7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="3D Support">668825c00f05a3008b7c419ce1050ec7</sys_scope>
+        <sys_update_name>question_choice_8957db8e1b67ef00f0a2437ead4bcb1f</sys_update_name>
+        <sys_updated_by>a-michael.cavallo</sys_updated_by>
+        <sys_updated_on>2019-02-12 15:04:56</sys_updated_on>
+        <text>Self Funded</text>
+        <value>self_funded</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=8957db8e1b67ef00f0a2437ead4bcb1f"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>8957db8e1b67ef00f0a2437ead4bcb1f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>a-michael.cavallo</sys_created_by>
+        <sys_created_on>2019-02-12 15:04:56</sys_created_on>
+        <sys_id>ba675b4e1b67ef00f0a2437ead4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>a-michael.cavallo</sys_updated_by>
+        <sys_updated_on>2019-02-12 15:04:56</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>8957db8e1b67ef00f0a2437ead4bcb1f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>a-michael.cavallo</sys_created_by>
+        <sys_created_on>2019-02-12 15:04:56</sys_created_on>
+        <sys_id>72675b4e1b67ef00f0a2437ead4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>a-michael.cavallo</sys_updated_by>
+        <sys_updated_on>2019-02-12 15:04:56</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
