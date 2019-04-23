@@ -24,7 +24,7 @@
         <help_text/>
         <include_none>false</include_none>
         <instructions/>
-        <layout>normal</layout>
+        <layout>2across</layout>
         <list_table/>
         <lookup_label/>
         <lookup_price/>
@@ -32,15 +32,15 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>estimated_revenue</name>
-        <order>1000</order>
+        <name>container_account_manager</name>
+        <order>75</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Total Estimated Revenue</question_text>
+        <question_text>container_account_manager</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -57,21 +57,21 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>a-michael.cavallo</sys_created_by>
-        <sys_created_on>2019-02-12 14:50:40</sys_created_on>
+        <sys_created_on>2019-04-23 16:35:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>f8e3d7ca1b67ef00f0a2437ead4bcbdc</sys_id>
+        <sys_id>ea6bc4bc1b45b740f0a2437ead4bcb42</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Estimated Revenue</sys_name>
+        <sys_name>container_account_manager</sys_name>
         <sys_package display_value="3D Support" source="x_usii2_3d_support">668825c00f05a3008b7c419ce1050ec7</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="3D Support">668825c00f05a3008b7c419ce1050ec7</sys_scope>
-        <sys_update_name>item_option_new_f8e3d7ca1b67ef00f0a2437ead4bcbdc</sys_update_name>
+        <sys_update_name>item_option_new_ea6bc4bc1b45b740f0a2437ead4bcb42</sys_update_name>
         <sys_updated_by>a-michael.cavallo</sys_updated_by>
-        <sys_updated_on>2019-02-12 14:50:40</sys_updated_on>
+        <sys_updated_on>2019-04-23 16:35:51</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>19</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
@@ -85,22 +85,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=f8e3d7ca1b67ef00f0a2437ead4bcbdc"/>
-    <fx_price action="delete_multiple" query="id=f8e3d7ca1b67ef00f0a2437ead4bcbdc"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ea6bc4bc1b45b740f0a2437ead4bcb42"/>
+    <fx_price action="delete_multiple" query="id=ea6bc4bc1b45b740f0a2437ead4bcb42"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>f8e3d7ca1b67ef00f0a2437ead4bcbdc</id>
+        <id>ea6bc4bc1b45b740f0a2437ead4bcb42</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>a-michael.cavallo</sys_created_by>
-        <sys_created_on>2019-02-12 14:50:40</sys_created_on>
-        <sys_id>7924d70e1b67ef00f0a2437ead4bcb69</sys_id>
+        <sys_created_on>2019-04-23 16:35:51</sys_created_on>
+        <sys_id>c18b807c1b45b740f0a2437ead4bcb79</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>a-michael.cavallo</sys_updated_by>
-        <sys_updated_on>2019-02-12 14:50:40</sys_updated_on>
+        <sys_updated_on>2019-04-23 16:35:51</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -108,16 +108,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>f8e3d7ca1b67ef00f0a2437ead4bcbdc</id>
+        <id>ea6bc4bc1b45b740f0a2437ead4bcb42</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>a-michael.cavallo</sys_created_by>
-        <sys_created_on>2019-02-12 14:50:40</sys_created_on>
-        <sys_id>3124d70e1b67ef00f0a2437ead4bcb69</sys_id>
+        <sys_created_on>2019-04-23 16:35:51</sys_created_on>
+        <sys_id>898b807c1b45b740f0a2437ead4bcb78</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>a-michael.cavallo</sys_updated_by>
-        <sys_updated_on>2019-02-12 14:50:40</sys_updated_on>
+        <sys_updated_on>2019-04-23 16:35:51</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
